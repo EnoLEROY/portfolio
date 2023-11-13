@@ -6,4 +6,6 @@ Rails.application.routes.draw do
 
   get 'about_me', to: 'pages#about_me'
   get 'projects', to: 'pages#projects'
+  get 'project_1', to: 'pages#project_1'
+  get 'project_2', to: 'pages#project_2'
 end

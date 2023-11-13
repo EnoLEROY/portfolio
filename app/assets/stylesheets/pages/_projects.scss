@@ -1,0 +1,25 @@
+// button-link => components/buttons
+$light-gradient-color: rgb(50, 50, 50);
+$lighter-gradient-color: rgb(70, 70, 70);
+
+.open-dropdown {
+  background: linear-gradient(rgb(35, 35, 35), $light-gradient-color);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 3px solid $lighter-gradient-color;
+  border-left: 3px solid $lighter-gradient-color;
+}
+
+.project-title {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-inline: 10px;
+  border-left: 3px solid $lighter-gradient-color;
+}
+
+.project-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}

@@ -1,1 +1,27 @@
-projects
+<div class="container">
+
+  <div data-dropdown-target="activated" data-action="click->dropdown#toggleDropdown" data-controller="dropdown" data-dropdown-open-value="false">
+    <h2 class="project-title">MonsterSlicer The Game</h2>
+    <div data-dropdown-target="dropdownContent" class="open-dropdown">
+      <div class="project-content">
+
+        <p>2D pixel art game Dungeon craler like </p>
+        <%= link_to "Voir le projet", project_1_path, class: "button-link" %>
+
+      </div>
+    </div>
+  </div>
+
+  <div data-dropdown-target="activated" data-action="click->dropdown#toggleDropdown" data-controller="dropdown" data-dropdown-open-value="false">
+    <h2 class="project-title">Deuxième projet</h2>
+    <div data-dropdown-target="dropdownContent" class="open-dropdown">
+      <div class="project-content">
+
+        <p>description 2</p>
+        <%= link_to "Voir le projet", project_2_path, class: "button-link" %>
+
+      </div>
+    </div>
+  </div>
+
+</div>

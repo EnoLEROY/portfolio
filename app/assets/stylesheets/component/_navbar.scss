@@ -15,6 +15,7 @@ $navbar-font-family: Verdana, Geneva, Tahoma, sans-serif;
   justify-content: space-between;
 }
 
+
 .navbar-name {
   text-align: center;
   color: white;
@@ -23,7 +24,9 @@ $navbar-font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar-tab {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: white;
   font-family: $navbar-font-family;
   a {
@@ -32,3 +35,20 @@ $navbar-font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
   }
 }
+
+// .navbar-open-dropdown {
+//   z-index: 1;
+//   text-align: end;
+//   position: absolute;
+//   top: 40px;
+//   left: 40ox;
+//   margin: 0px;
+//   margin-inline: 30px;
+//   padding: 10px;
+//   width: fit-content;
+//   border: solid 1px;
+//   color: black;
+//   a {
+//     color: black;
+//   }
+// }

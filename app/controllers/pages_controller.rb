@@ -7,4 +7,12 @@ class PagesController < ApplicationController
 
   def projects
   end
+
+  def project_1
+    # MonsterSlicer
+  end
+
+  def project_2
+    # A definir
+  end
 end

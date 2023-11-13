@@ -1,0 +1,16 @@
+$button-primary-color: rgb(71, 10, 106);
+$button-primary-color-light: rgb(104, 15, 155);
+$button-primary-text-color: white;
+
+.button-link {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 8px;
+  color: $button-primary-text-color;
+  border: 3px solid $button-primary-color-light;
+  background-color: $button-primary-color;
+  &:hover {
+    border-color: $button-primary-color;
+    background-color: $button-primary-color-light;
+  }
+}
