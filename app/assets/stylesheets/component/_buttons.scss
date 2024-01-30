@@ -9,6 +9,7 @@ $button-primary-text-color: white;
   color: $button-primary-text-color;
   border: 3px solid $button-primary-color-light;
   background-color: $button-primary-color;
+  text-align: center;
   &:hover {
     border-color: $button-primary-color;
     background-color: $button-primary-color-light;
