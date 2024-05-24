@@ -1,4 +1,4 @@
-$navbar-font-family: Verdana, Geneva, Tahoma, sans-serif;
+$navbar-font-family: $font-family;
 
 
 .navbar {
@@ -9,7 +9,7 @@ $navbar-font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-inline: 20px;
   width: auto;
   height: 40px;
-  background-color: rgb(77, 16, 115);
+  background-color: $secondary;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,7 +18,7 @@ $navbar-font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 .navbar-name {
   text-align: center;
-  color: white;
+  color: $light;
   font-family: $navbar-font-family;
   text-decoration: none;
 }
@@ -27,11 +27,11 @@ $navbar-font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: white;
+  color: $light;
   font-family: $navbar-font-family;
   a {
     margin-inline: 5px;
-    color: white;
+    color: $light;
     text-decoration: none;
   }
 }

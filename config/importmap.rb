@@ -8,3 +8,6 @@ pin_all_from "app/javascript/controllers", under: "controllers"
 
 # Importation de Phaser et des assets de MonsterSlicer
 pin "phaser", preload: true
+
+# Importation de typed 
+pin "typed.js", to: "https://ga.jspm.io/npm:typed.js@2.0.16/dist/typed.module.js"

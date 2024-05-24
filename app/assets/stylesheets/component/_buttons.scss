@@ -1,6 +1,6 @@
-$button-primary-color: rgb(71, 10, 106);
-$button-primary-color-light: rgb(104, 15, 155);
-$button-primary-text-color: white;
+$button-primary-color: $secondary;
+$button-primary-color-light: $secondary-light;
+$button-primary-text-color: $light;
 
 .button-link {
   text-decoration: none;
